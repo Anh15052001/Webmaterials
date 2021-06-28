@@ -1,0 +1,150 @@
+#select1{
+    display: none;
+}
+header, section, footer, aside, nav,
+article, figure, figcaption{
+    display: block;
+}
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+h1,h2,h3{
+    font-weight: normal;
+}
+h1{
+    font-size: x-large;
+    width: 800px;
+    height: 130px;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0px 0px 0px 30px;
+    font-variant: small-caps;
+
+}
+nav, footer{
+    clear: both;
+    color: brown;
+    background-color: #aeaca8;
+    height: 50px;
+
+
+}
+nav, ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style-type: disc;
+}
+nav li a{
+    color: white;
+}
+nav li a:hover, nav li a.curent{
+    color: #000000;
+}
+section.course{
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+
+}
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup{
+    margin-top: 40px;
+}
+figure{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+    clear: left;
+    overflow: auto;
+}
+figcaption{
+    font-size: 90%;
+    text-align: left;
+}
+aside section a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+
+}
+aside section a:hover{
+    color: #985d6a;
+    background-color: #efefef;
+}
+a{
+    color: mediumblue;
+    text-decoration: none;
+}
+h2{
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+h3{
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+aside h2{
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
+h2, h3{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+}
+.sign{
+    font-style: italic;
+    font-weight: bold;
+    font-family: "JetBrains Mono Light";
+}
+#contac{
+    color: mediumblue;
+}
+h2{
+    color: green;
+    font-family: Verdana;
+}
+.content{
+    font-family: Calibri;
+}
+.angor{
+    font-weight: bolder;
+    font-family: "JetBrains Mono Light";
+
+
+}
